@@ -1,3 +1,14 @@
+/*
+Table of contents:
+
+— COMMON STYLES
+— PLAYER CONTAINER
+– NAVIGATION BUTTONS
+- TRACK INFO
+*/
+
+/* COMMON STYLES */
+
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
@@ -14,6 +25,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* PLAYER CONTAINER */
 
 .music-container {
     background-color: #fff;
@@ -67,3 +80,66 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* NAVIGATION BUTTONS */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.action-btn {
+    background-color: #fff;
+    border: 0;
+    padding: 10px;
+    color: #dfdbdf;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.action-btn-big {
+    color: #cdc2d0;
+    font-size: 30px;
+}
+
+.action-btn:focus {
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
